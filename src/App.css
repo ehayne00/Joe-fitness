@@ -54,6 +54,28 @@ html {
   height: 130px;
 }
 
+.card {
+  display: flex;
+  background-color: gray;
+  margin: 20px;
+}
+
+.quote {
+  color: rgb(216, 153, 71);
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+.right {
+  position: absolute;
+  left: 60vw;
+}
+
+.text-spacing {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .content-position2 {
   margin-top: 150px;
   padding-left: 80px;

@@ -10,6 +10,10 @@ const Home = () => {
             <h2 className="text2 animated fadeIn delay-1s">Mobile Personal Training</h2> 
             <h2 className="text2 animated fadeIn delay-1s">& Massage Therapy</h2>
             <p className="text5 animated fadeIn delay-1s">North London, UK</p>
+            <div className="quote">
+            <p>"...you will have no regrets and a 6-pack!”</p>
+            <p className="right">Neil</p>
+            </div>
             </div>
         </div>
     )
