@@ -1,8 +1,13 @@
 import React from "react";
+import mma from '../Media/joe-mma.png'
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="content-position2">
+      <h1 className="text2 heading-size">About Me</h1>
+    <div className="flex">
+      
+      <div className="text-orientation">
       <p>
         I enjoy seeing my clients progress their physical capabilities. I
         believe that improvements don’t come without hard work and that the
@@ -73,6 +78,9 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
+      </div>
+      <img className="mma" src={mma} alt="oh no!"/>
+    </div>
     </div>
   );
 };
