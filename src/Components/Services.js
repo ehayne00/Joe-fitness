@@ -8,6 +8,7 @@ const Services = () => {
   return (
     <div className="content-position2">
       <h1 className="text2 heading-size">Services</h1>
+      <div className="underline"/>
       <div className="text-orientation card">
         <img className="card-image" src={thumbnail4} alt="oh no!" />
         <div className="text-spacing">

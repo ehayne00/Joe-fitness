@@ -31,17 +31,22 @@ html {
   display: flex;
 }
 
+.flex-position{
+  justify-content: center;
+}
+
 .heading-size {
   font-size: 70px;
 }
 
 .mma {
   height: 300px;
-  width: auto;
+  width: 300px;
   object-fit: cover;
   padding: 10px;
   margin-left: 50px;
   border: 1px solid #ddd;
+  margin-bottom: 36px;
 }
 
 .Nav {
@@ -112,10 +117,10 @@ html {
 
 .instagram {
   position: absolute;
-  right: -500px;
-  width: 30px;
-  top: -15px;
-  background-image: radial-gradient(rgb(216, 153, 71), rgb(0,0,0,0), rgb(0,0,0,0));
+  width: 35px;
+  top: -19px;
+  margin-left: 8px;
+  background-image: radial-gradient(rgb(250, 146, 10), rgb(0,0,0,0), rgb(0,0,0,0));
   border-radius: 40px;
 }
 
@@ -135,4 +140,47 @@ html {
   padding: 10px;
   text-decoration: none;
   color: rgb(216, 153, 71);
+}
+
+.container{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px black;
+  padding: 20px;
+}
+
+.container2{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px black;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.darkText{
+  color: rgb(26, 24, 24);
+  font-weight: 500;
+}
+
+.underline{
+  height: 3px;
+  width: 50%;
+  background-color: grey;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 20px 2px black;
+}
+
+.spacing{
+  margin-bottom: 30px;
+}
+
+.phone{
+  width: 50px;
+  margin-left: 20px;
 }
